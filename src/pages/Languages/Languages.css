@@ -1,0 +1,26 @@
+.content h2::before {
+  content: "";
+  position: absolute;
+  right: -10px;
+  background-color: #5262ad;
+  width: 5px;
+  height: 100%;
+}
+
+ul li {
+  margin-top: 20px;
+  list-style: disc;
+  color: #524c4c;
+}
+
+#enlarged-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  object-fit: contain;
+  backdrop-filter: blur(1.4px);
+  cursor: pointer;
+}
